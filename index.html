@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Deepak A V – Full Stack Developer specializing in Java, Spring Boot & AWS. Explore my projects, tech stack, and experience." />
+  <title>Deepak Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background: #f5f5fb;
+      color: #222;
+      line-height: 1.6;
+      padding-bottom: 3rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background: #5b21b6;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img, .about img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #5b21b6;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      padding: 0.5rem 1rem;
+      background-color: #5b21b6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #5b21b6;
+    }
+
+    .about, .tech-stack {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project-card-content {
+      padding: 1rem;
+    }
+
+    .project-card h3 {
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .project-card p {
+      font-size: 0.95rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .view-btn {
+      background: #dc2626;
+      color: white;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #5b21b6;
+      color: white;
+    }
+
+    a {
+      color: #5b21b6;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tech">Tech Stack</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <img src="deepak.jpg" alt="Portrait of Deepak, Full Stack Developer" />
+    <h1>Hi, I'm Deepak AV </h1>
+    <p>Aspiring Full Stack Developer specializing in Java, Spring Boot and Networking</p>
+    <a class="btn" href="#contact">Contact Me</a>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about">
+        <img src="deepak.jpg" alt="Deepak smiling in professional attire" />
+        <p>
+           Hello, and welcome to my profile! I am Deepak AV, a passionate Java Full Stack Developer with a strong foundation in Core Java, Advanced Java, Spring Framework, DBMS, MySQL, HTML, CSS, JavaScript, AWS, Git, and GitHub. I am currently pursuing a Full Stack Java Development Internship at Tap Academy, where I am enhancing my technical and practical skills in building scalable web applications.
+           I hold a B.Tech in Electronics and Communication Engineering from GITAM University. While my academic background is rooted in electronics, I have developed a deep interest in web development, particularly in creating innovative solutions that combine back-end efficiency with seamless user experiences.
+
+           Two of my key projects include: (1) a Book Management System that allows users to manage, search, and categorize books efficiently through CRUD operations with user-friendly UI and backend logic; and (2) a responsive Food Delivery Dashboard, featuring a modern UI, filtering capabilities, and restaurant analytics to manage and present food delivery services effectively.
+            -Key Technologies Used: Java (Spring Boot), MySQL, React.js, AWS, HTML, CSS, JavaScript.
+
+            My technical expertise is complemented by strong problem-solving skills, communication abilities, and teamwork, which I believe are essential for effective collaboration and project success.
+
+            I am enthusiastic about contributing to dynamic development teams and working on challenging projects in full-stack development. I am particularly interested in leveraging cloud technologies, automation, and real-time data processing to create efficient and user-friendly solutions.
+          <br/><br/>
+          ➤ 2+ Projects<br/>
+          
+        </p>
+      </div>
+    </section>
+
+    <section id="tech">
+      <h2>Tech Stack</h2>
+      <div class="tech-stack">
+        <ul>
+          <li>Frontend: HTML, CSS, JavaScript</li>
+          <li>Backend: Spring, Spring Boot, REST API</li>
+          <li>Database: MySQL, JDBC</li>
+          <li>Developer Tools: Eclipse IDE, GitHub</li>
+          <li> Networking: Basics of VPN, HTTP/HTTPS, default ports, Telnet, Ping, Protocol</li>
+          <li>Tools: AWS, Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+  <h2>Projects</h2>
+
+  <div id="project1" class="project active-project">
+    <h3>📘 1 - Online Bookstore Management System</h3>
+    <img src="project1.png" alt="Screenshot of Online Bookstore Management System" />
+    <ul>
+      <li>Developed a Java-based web application for users to browse and purchase books.</li>
+      <li>Integrated login systems for both customers and admins to manage roles securely.</li>
+      <li>Used MySQL to store data related to books, users, and orders.</li>
+      <li>Implemented a shopping cart system to add, remove, and checkout books.</li>
+      <li>Hosted the application on AWS EC2 with MySQL on RDS to ensure high availability.</li>
+    </ul>
+  </div>
+
+  <div id="project2" class="project">
+    <h3>🍽️ 2 - Food Delivery Application</h3>
+    <img src="project2.png" alt="Screenshot of Food Delivery Application" />
+    <ul>
+      <li>Built a full-stack food ordering platform with restaurant listings and order management.</li>
+      <li>Created RESTful APIs using Spring Boot and secured login with Spring Security.</li>
+      <li>Managed backend data including users, restaurants, menus, and orders with MySQL.</li>
+      <li>Adopted MVC architecture to ensure clean code and maintainability.</li>
+      <li>Designed intuitive frontend and responsive user interface for seamless UX.</li>
+    </ul>
+  </div>
+</section>
+
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Phone: <a href="tel:9380838238">9380838238</a></p>
+      <p>Email: <a href="mailto:avdeepak03@gmail.com">avdeepak03@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/deepak-a-v-82417724b" target="_blank">www.linkedin.com/in/deepak-a-v-82417724b</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Deepak Portfolio. All rights reserved.
+  </footer>
+
+</body>
+</html>
